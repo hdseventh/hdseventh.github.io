@@ -1,0 +1,59 @@
+  .gallery {
+    border-radius: 5px;
+    background-color: rgba(51, 51, 51, 0.829);
+    box-shadow: 0 4px 2px 0 rgba(255, 255, 255, 0.473);
+    transition: transform .2s;
+  }
+  
+  .gallery:hover {
+    transform: scale(1.2);
+  }
+  
+  .kodok {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  .responsive {
+    padding: 40px 21px;
+    float: left;
+    width: 18%;
+    
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .fix{
+      padding: 20px 10px 20px 100px;
+      width: 100%;
+      margin: 0px;
+  }
+
+  section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../sources/bg/2.jpg");
+  }

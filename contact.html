@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header>
+        <div class="topnav">
+
+            <a href="index.html"><img class="icons" src="sources/bar/home.png"></a>
+            <a href="notif.html"><img class="icons" src="sources/bar/notification.png"></a>
+
+            <div class="topnav-centered">
+                <a href="contact.html" class="active"><img class="icons" src="sources/bar/contact.png"></a>
+            </div>
+          
+            <div class="topnav-right">
+                <a href="gallery.html"><img class="icons" src="sources/bar/gallery.png"></a>
+                <a href="about.html"><img class="icons" src="sources/bar/about.png"></a>
+            </div>
+
+        </div>
+    </header>
+
+    <section>
+        <div class="fix">
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fid">Game ID</label>
+              <input type="text" id="fid" name="fid" placeholder="Your Game ID..." required>
+          
+              <label for="fserver">Game Server</label>
+              <input type="text" id="fserver" name="fserver" placeholder="Your Game Server..." required>
+                
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="ina">Indonesia</option>
+                <option value="china">China</option>
+                <option value="usa">United States of America</option>
+                <option value="fr">France</option>
+                <option value="jpn">Japan</option>
+              </select>
+
+              <label for="version">Game Version</label>
+              <select id="version" name="version">
+                <option value="alpha">Alpha v1.09</option>
+                <option value="beta">Beta v1.05</option>
+                <option value="Global">Global v1.04</option>
+              </select>
+          
+              <label for="subject">Problem Report</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+          
+              <input type="submit" value="Report">
+            </form>
+          </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container6">
+            <a href="#facebook"><img class="iconsfooter" src="sources/footer/facebook.png" alt="facebook"></a>
+            <a href="#gplus"><img class="iconsfooter" src="sources/footer/google.png" alt="googleplus"></a>
+            <a href="#twitter"><img class="iconsfooter" src="sources/footer/twitter.png" alt="twitter"></a>
+        </div>
+        <hr>
+        <div class="container7">
+            <p>Muhammad Aditya Pranoto © 2019 | All right reseved.</p>
+        </div>
+        <br>
+    </footer>
+</body>
+</html>

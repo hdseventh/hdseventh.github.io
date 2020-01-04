@@ -1,0 +1,84 @@
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #333;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    
+  }
+  
+  .button:hover{
+    background-color: #cc3333;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+    background-color: #cc3333;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    background-color: #cc3333;
+    right: 0;
+  }
+
+  h1, h3{
+      color: wheat;
+      text-align: center;
+      padding: 3px;
+  }
+
+  .mantap{
+    margin: 0px 22px;
+    padding: 50px 5px;
+    border-radius: 5px;
+    background-color: rgba(51, 51, 51, 0.829);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.473);
+  }
+
+  .mantap p{
+    color: white;
+    text-align: center;
+    width: auto;
+  }
+
+  section{
+    background-repeat: no-repeat;
+		background-size: cover;
+    background-image: url("../sources/bg/1.png");
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }

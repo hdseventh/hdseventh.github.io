@@ -1,0 +1,111 @@
+/*-----------------HEADER-----------------*/
+html, body{
+    height: 100%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    position: relative;
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color:#ac5353;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #cc3333;
+    color: white;
+}
+  
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.topnav-right {
+    float: right;
+}
+  
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+  
+.topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    }
+}
+
+.icons{
+    padding: 10px 10px;
+    width: 30px;
+    filter: invert(100%);
+}
+/*-----------------SECTION-----------------*/
+
+section {
+    height: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+div.container6 {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.container6 p {
+    color: white;
+    margin: 0; 
+}
+
+/*-----------------FOOTER------------------*/
+footer{
+    background-color: #333;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.iconsfooter{
+    padding: 10px 10px;
+    width: 60px;
+}
+
+div.container7 {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container7 p {
+    color: white;
+    margin: 0; 
+}
